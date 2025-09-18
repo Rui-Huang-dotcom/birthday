@@ -15,7 +15,7 @@ export default function Home() {
 
   // Array of all 8 photos
   const photos = [
-     { src: "/ruben/photo0.PNG", alt: "Rúben 0" },
+     { src: "/ruben/photo0.png", alt: "Rúben 0" },
     { src: "/ruben/photo1.webp", alt: "Rúben 1" },
     // { src: "/ruben/photo2.webp", alt: "Rúben 2" },
     // { src: "/ruben/photo3.webp", alt: "Rúben 3" },
