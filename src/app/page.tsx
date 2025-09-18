@@ -18,8 +18,6 @@ export default function Home() {
     { src: "/ruben/photo0.png", alt: "Rúben 0" },
     { src: "/ruben/photo1.jpg", alt: "Rúben 1" },
     { src: "/ruben/photo2.jpg", alt: "Rúben 2" },
-    { src: "/ruben/photo3.jpg", alt: "Rúben 3" },
-    { src: "/ruben/photo4.jpg", alt: "Rúben 4" },
     { src: "/ruben/photo5.jpg", alt: "Rúben 5" },
     { src: "/ruben/photo6.jpg", alt: "Rúben 6" },
     { src: "/ruben/photo7.jpg", alt: "Rúben 7" },
