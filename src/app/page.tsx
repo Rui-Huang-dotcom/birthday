@@ -18,10 +18,9 @@ export default function Home() {
     { src: "/ruben/photo0.png", alt: "Rúben 0" },
     { src: "/ruben/photo1.jpg", alt: "Rúben 1" },
     { src: "/ruben/photo2.jpg", alt: "Rúben 2" },
-    { src: "/ruben/photo5.jpg", alt: "Rúben 5" },
+
     { src: "/ruben/photo6.jpg", alt: "Rúben 6" },
     { src: "/ruben/photo7.jpg", alt: "Rúben 7" },
-    { src: "/ruben/photo8.jpg", alt: "Rúben 8" },
   ];
 
   // Client-side initialization
@@ -29,7 +28,7 @@ export default function Home() {
     setMounted(true);
     setShowConfetti(true); // Now set to true on client only
     setIsAutoPlaying(true); // Now set to true on client only
-    
+
     // Stop confetti after 8 seconds
     const timer = setTimeout(() => setShowConfetti(false), 8000);
     return () => clearTimeout(timer);
@@ -38,7 +37,7 @@ export default function Home() {
   // Auto-play functionality - only runs on client
   useEffect(() => {
     if (!mounted) return; // Skip if not mounted yet
-    
+
     let intervalId: string | number | NodeJS.Timeout | undefined;
 
     if (isAutoPlaying) {
@@ -113,7 +112,7 @@ export default function Home() {
         <h2 className="text-xl font-semibold mb-6 text-center text-white animate-pulse">
           Want to buy Rúben a birthday cake?
         </h2>
-        
+
         <div className="flex justify-center">
           <a
             href="https://www.buymeacoffee.com/ruihuang"
