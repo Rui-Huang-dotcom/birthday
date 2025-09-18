@@ -15,12 +15,12 @@ export default function Home() {
 
   // Array of all 8 photos
   const photos = [
-     { src: "/ruben/photo0.webp", alt: "Rúben 0" },
+     { src: "/ruben/photo0.JPG", alt: "Rúben 0" },
     { src: "/ruben/photo1.webp", alt: "Rúben 1" },
-    { src: "/ruben/photo2.webp", alt: "Rúben 2" },
-    { src: "/ruben/photo3.webp", alt: "Rúben 3" },
-    { src: "/ruben/photo6.webp", alt: "Rúben 6" },
-    { src: "/ruben/photo7.webp", alt: "Rúben 7" },
+    // { src: "/ruben/photo2.webp", alt: "Rúben 2" },
+    // { src: "/ruben/photo3.webp", alt: "Rúben 3" },
+    // { src: "/ruben/photo6.webp", alt: "Rúben 6" },
+    // { src: "/ruben/photo7.webp", alt: "Rúben 7" },
   ];
 
   // Client-side initialization
